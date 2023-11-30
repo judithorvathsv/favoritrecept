@@ -5,24 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favorit recept</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1 style="color:blue">Mazarinkaka i långpanna från internet</h1>
+        <h1>Mazarinkaka i långpanna från internet</h1>
     </header>
 
     <main>
-        <img style="width:300px; height:300px"
-            src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_251178/cf_259/mazarinkaka_i_langpanna_med_citrus-_och_saffransglasyr_.jpg"
-            alt="Mazarinkaka bild 1">
-        <img style="width:300px; height:300px"
-            src="https://image.elle.se/mazarinkaka-apelsinsyrup-recept-1.jpg.jpg?imageId=4881901&x=0&y=0&cropw=100&croph=100&width=1320&height=688&compression=70"
-            alt="Mazarinkaka bild 2">
+        <section id="images">
+            <img id="firstImage"src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_251178/cf_259/mazarinkaka_i_langpanna_med_citrus-_och_saffransglasyr_.jpg"
+                alt="Mazarinkaka bild 1">
+            <img id="secondImage"
+                src="https://image.elle.se/mazarinkaka-apelsinsyrup-recept-1.jpg.jpg?imageId=4881901&x=0&y=0&cropw=100&croph=100&width=1320&height=688&compression=70"
+                alt="Mazarinkaka bild 2">
+        </section>
 
-        <section>
-            <h3 style="color:blue">Ingredienser:</h3>
-            <h4>Kaka:</h4>
+        <section id="ingredienser">
+            <h3>Ingredienser:</h3>
+            <hr>
+            <h4 class="ingredientTitle">Kaka:</h4>
             <ul>
                 <li>1-2 citroner (skal från 1 citron och 1 dl saft till kaka och glasyr, 20 bitar)</li>
                 <li>1-2 apelsiner (skal från 1/2 apelsin och 1 1/2 dl saft till kaka och glasyr för 20 bitar)</li>
@@ -33,7 +36,7 @@
                 <li>3 dl vetemjöl</li>
                 <li>2 krm salt</li>
             </ul>
-            <h4>Glasyr:</h4>
+            <h4 class="ingredientTitle">Glasyr:</h4>
             <ul>
                 <li>2 förp saffran (à 0,5 g)</li>
                 <li>1/2 dl citronsaft (se ovan)</li>
@@ -43,10 +46,9 @@
             </ul>
         </section>
 
-        <hr>
-
-        <section>
-            <h3 style="color:blue">Gör så här:</h3>
+        <section id="howToDo">
+            <h3>Gör så här:</h3>
+            <hr>
             <ol>
                 <li>Sätt ugnen på 200°C.</li>
                 <li>Kaka: Riv yttersta skalet av 1 citron och 1/2 apelsin (för 20 bitar).</li>
@@ -72,6 +74,7 @@
             </ol>
         </section>
     </main>
+
     <footer>
         <p>Bageri/ Konditori Kardemumma - Upplands Väsby</p>
     </footer>
